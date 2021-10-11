@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'binarySerialReceiver',
   packages = ['binarySerialReceiver'],
-  version = '0.1',
+  version = '1.1',
   license='MIT',
   description = 'Simple module for receiving binary data from a serial port',
   author = 'Francisco Liebl',
