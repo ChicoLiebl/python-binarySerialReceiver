@@ -1,19 +1,26 @@
+import os
 from distutils.core import setup
+
+here = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
   name = 'binarySerialReceiver',
   packages = ['binarySerialReceiver'],
-  version = '1.1',
+  version = '1.2',
   license='MIT',
   description = 'Simple module for receiving binary data from a serial port',
   author = 'Francisco Liebl',
   author_email = 'chicolliebl@gmail.com',
   url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver.git',
-  download_url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver/archive/refs/tags/V1.1.tar.gz',
+  download_url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver/archive/refs/tags/V1.2.tar.gz',
   keywords = ['SERIAL', 'PORT', 'RECEIVER', 'BINARY', 'THREADED', 'BACKGROUND'],
   install_requires=[
           'numpy',
           'pyserial',
       ],
+  long_description=long_description,
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
