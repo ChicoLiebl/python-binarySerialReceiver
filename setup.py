@@ -8,7 +8,7 @@ setup(
   author = 'Francisco Liebl',
   author_email = 'chicolliebl@gmail.com',
   url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver.git',
-  download_url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver/archive/v_01.tar.gz',
+  download_url = 'https://github.com/ChicoLiebl/python-binarySerialReceiver/archive/refs/tags/V1.0.tar.gz',
   keywords = ['SERIAL', 'PORT', 'RECEIVER', 'BINARY', 'THREADED', 'BACKGROUND'],
   install_requires=[
           'numpy',
