@@ -15,7 +15,9 @@ In the example folder there is a script that creates a virtual serial port (work
 
 An exemple code for an arduino to send data to be read using this module would be the fallowing:
 
-.. code:: c
+
+.. code-block:: c
+
   void loop() {
     uint16_t adc_signal = analogRead(sensorPin);
     long unsigned t_now = micros();
